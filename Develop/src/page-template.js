@@ -19,14 +19,15 @@ const generatePage = (data) => {
     <p>${data.description}</p>
   </div>
   <div>
+    <h1> Table of Contents </h2>
     <ul>
-      <li><a href="#installation"></a></li>
-      <li><a href="#usage"></a></li>
-      <li><a href="#license"></a></li>
-        <li><a href="#contributing"></a></li>
-        <li><a href="#tests"></a></li>
-        <li><a href="#questions"></a></li>
-  </ul>
+      <li><a href="#installation">Installation</a></li>
+      <li><a href="#usage">Usage</a></li>
+      <li><a href="#license">License</a></li>
+      <li><a href="#contributing">Contributing</a></li>
+      <li><a href="#tests">Tests</a></li>
+      <li><a href="#questions">Questions</a></li>
+    </ul>
   </div>
  <div>
    <h2 id='installation'> ### Installation: </h2>
@@ -39,11 +40,11 @@ const generatePage = (data) => {
  </div>
  <div>
    <h2 id='license'> ### License:</h2>
-   <p>This project is licensed under :${data.license}
+   <p>This project is licensed under: ${data.license}
    </p>
  </div>
  <div>
-   <h2 id='contributing'> ### Contributors:</h2>
+   <h2 id='contributing'> ### Contributing:</h2>
    <p>{data.contributing}</p>
  </div>
  <div>
@@ -54,7 +55,7 @@ const generatePage = (data) => {
  <div>
    <h2 id='questions'>### Questions:</h2>
    <p>If there are any questions regarding this project, please contact ${data.author} by email at ${data.email}, or reach
-    out to them via their github: [Github](https://github.com/${data.github})</p>
+    out to them via their github: <a href="https://github.com/${data.github}">Creator Github</a></p>
  </div>
   
 </body>
