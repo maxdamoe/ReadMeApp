@@ -42,6 +42,8 @@ const generatePage = (data) => {
    <h2 id='license'> ### License:</h2>
    <p>This project is licensed under: ${data.license}
    </p>
+   <p> This is the description based on the license that is chosen!</p>
+   <p> this this where the image / badge based on the license would go if I understood how to do it! </p>
  </div>
  <div>
    <h2 id='contributing'> ### Contributing:</h2>

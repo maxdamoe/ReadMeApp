@@ -23,10 +23,10 @@ const questions = () =>
       message: 'Please provide usage instructions'
     },
     {
-      type: 'choices',
-      choices: ["apache", 'other'],
+      type: 'checkbox',
       name: 'license',
-      message: 'What is the license for this project?'
+      message: 'What is the license for this project?',
+      choices: ["apache", 'other'],
     },
     {
       type: 'input',
